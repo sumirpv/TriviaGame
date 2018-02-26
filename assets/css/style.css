@@ -1,12 +1,13 @@
 
 body{
-  background-image: url("../images/trivia-contest-clipart-4.jpg");
+  background-image: url("../images/blog-banner-quiz-background-revise3-1024x373.gif");
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-repeat: repeat ;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
   font-size: 40px;
-  padding: 20%;
+  padding-left: 32%;
+    padding-top: 8%;
 }
 .size {
 margin-bottom: 20px;
