@@ -88,30 +88,30 @@ obj.current = 0;
           //display the answers in a button
       } else {
         // display the correct answer number
-          $('body').append($('<div>'+'</div>', {
+          $('#continer').append($('<div>'+'</div>', {
             text: 'Results are : ' ,
             class: 'result'
         }));
        // display the correct answer number
-          $('body').append($('<div>'+'</div>', {
+          $('#continer').append($('<div>'+'</div>', {
             text: 'Correct Answers: ' + (
                 obj.answers.correct  ),
             class: 'result'
         }));
         //display the incorrect answer in the div
-        $('body').append($('<div>'+'</div>', {
+        $('#continer').append($('<div>'+'</div>', {
           text: 'Incorrect Answers: ' + (
             obj.answers.incorrect ),
           class: 'result'
       }));
       // this one is for un snsweered questions
-      $('body').append($('<div>'+'</div>', {
+      $('#continer').append($('<div>'+'</div>', {
         text: 'Unanswered: ' + (
             obj.questions.length - (obj.answers.correct + obj.answers.incorrect)),
         class: 'result'
     }));
          // add all the results next to start button
-          $('#start_button').text('Restart').appendTo('body').show();
+          $('#start_button').text('Restart').appendTo('#continer').show();
       }
   };
 
