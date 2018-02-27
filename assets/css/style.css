@@ -21,13 +21,17 @@ width: 400px;
 height:50px;
 margin: 2%;
 font-size: 35px;
-background-color: rgb(228, 15, 44);
+background-color: rgb(218, 86, 20);
 }
 .btnsize{
-width: 250px;
+width: 450px;
 height:50px;
 margin: 1%;
 font-size: 30px;
-background-color: rgb(78, 211, 38);
+background-color: rgb(199,211,38);
+}
+.result{
+ 
+
 }
 
